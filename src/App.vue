@@ -1,7 +1,3 @@
-<script setup>
-
-import LauchesPreview from './components/LaunchesPreview.vue'
-</script>
 
 <template>
   <div class="main__container">
@@ -9,6 +5,25 @@ import LauchesPreview from './components/LaunchesPreview.vue'
     <LauchesPreview/>
   </div>
 </template>
+<script setup>
+
+
+</script>
+<script>
+import LauchesPreview from './components/LaunchesPreview.vue'
+export default {
+    data() {
+        return {
+        }
+    },
+    components: {
+      LauchesPreview
+    },
+    methods: {
+
+    }
+}
+</script>
 
 <style scoped>
   .main__container {
